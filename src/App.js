@@ -5,13 +5,14 @@ import TwoWayBinding from "./Components/LearnUseState/TwoWayBinding";
 import ToDoList from "./Components/LearnUseState/ToDoList";
 import Mount from "./Components/LearnUseHook/Mount";
 import TimeOut from "./Components/LearnUseHook/TimeOut";
+import PreviewAvatar from "./Components/LearnUseHook/PreviewAvatar";
 
 function App() {
   return (
     <div className="App">
       {/* <Gifts></Gifts>
       <TwoWayBinding></TwoWayBinding> */}
-      <TimeOut></TimeOut>
+      <PreviewAvatar></PreviewAvatar>
     </div>
   );
 }
