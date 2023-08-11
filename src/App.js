@@ -6,13 +6,14 @@ import ToDoList from "./Components/LearnUseState/ToDoList";
 import Mount from "./Components/LearnUseHook/Mount";
 import TimeOut from "./Components/LearnUseHook/TimeOut";
 import PreviewAvatar from "./Components/LearnUseHook/PreviewAvatar";
+import FakeChatApp from "./Components/LearnUseHook/FakeChatApp";
 
 function App() {
   return (
     <div className="App">
       {/* <Gifts></Gifts>
       <TwoWayBinding></TwoWayBinding> */}
-      <PreviewAvatar></PreviewAvatar>
+      <FakeChatApp></FakeChatApp>
     </div>
   );
 }
